@@ -1,0 +1,18 @@
+package biodata;
+public class biodata {
+    public static void main(String[] args) {
+        String Nama = "Rifqah.s";
+        String Alamat = "Polman";
+        int umur = 18;
+        char gender ='P'
+        float beratbadan = 41f;
+        double tinggibadan = 154;
+
+        System.out.println("Nama:" + nama);
+        System.out.println("Alamat:" + Alamat);
+        System.out.println("umur:" + umur);
+        System.out.println("gender:" + gender);
+        System.out.println("beratbadan:" + beratbadan + "kg");
+        System.out.println("tinggibadan:" + tinggibadan + "cm");
+    }
+}
