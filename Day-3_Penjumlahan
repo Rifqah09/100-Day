@@ -1,0 +1,12 @@
+package penjumlahan;
+public class Penjumlahan {
+    public static void main(String[] args) {
+        int angka1 = 20;
+        int angka2 = 25;
+
+        int hasilPenjumlahan = angka1 + angka2;
+
+        System.out.println("Hasil Penjumlahan:" + hasilPenjumlahan);
+    }
+
+}
