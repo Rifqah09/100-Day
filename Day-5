@@ -1,0 +1,20 @@
+package day5;
+
+public class Day5 {
+
+    public static void main(String[] args) {
+        //type data byte
+        byte umur = 18;
+        System.out.println("Umur: " + umur);
+
+        byte umurBertambah = 1;
+        umur += umurBertambah;
+        System.out.println("Umur Bertambah: " + umur);
+
+        //type data long
+        long detik = 24 * 60 * 60;
+        System.out.println("Jumlah Detik 1 Hari: " + detik);
+
+   }
+
+}
