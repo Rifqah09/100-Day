@@ -1,0 +1,24 @@
+package day6;
+
+public class Day6 { 
+
+    public static void main(String[] args) {
+        boolean lulusDdp = true;
+        boolean lulusMatematika = true;
+        boolean lulusFisika = false;
+
+        if (lulusDdp && lulusMatematika && lulusFisika) {
+            System.out.println("Mahasiswa telah lulus semua mata kuliah");
+        } else if (lulusDdp && lulusMatematika) {
+             System.out.println.("Mahasiswa belum lulus Fisika");
+        } else if (lulusDdp && lulusFisika) {
+             System.out.println("Mahasiswa belum lulus Matematika");
+        } else if (lulusMatematika && lulusFisika) {
+             System.out.println("Mahasiswa belum lulus DDP");
+        }else{
+             System.out.println.("Mahasiswa belum lulus semua mata kuliah");
+        }
+
+    }
+
+}
