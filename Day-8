@@ -1,0 +1,25 @@
+package day8
+
+import.java.util.Scanner;
+public class day8 {
+
+     public static void main(String[] args) {
+         Scanner input= newe Scanner(System.in);
+         System.out.println(Masukkan nama anda:");
+
+         String nama = input.nextLine();
+
+         System.out.println("Hai, " + nama + " ! salam kenal.");
+         System.out.println("Apakah anda ingin belajar bersama? (ya/tidak): ");
+
+         String jawaban = input.nextLine();
+
+         if (jawaban.equalsIgnoreCase("ya")) {
+             System.out.println("Saya mau");
+         } else {
+             System.out.println("Semangat belajar");
+
+         }
+     }
+
+}
