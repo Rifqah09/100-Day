@@ -1,0 +1,25 @@
+package day9;
+
+import.java.util.Scanner;
+public class Day9 {
+
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        double hargaSepatu = 185000; //Harga sepatu
+        double diskon = 0.20; // Diskon 20%
+        double yangDibayarkan = 160000; // Uang yang dibayarkan
+
+        //menghitung harga setelah diskon
+        double hargaSetelahDiskon = hargaSepatu - (hargaSepatu * diskon);
+
+        //menghitung uang kembalian
+        double kembalian = yangDibayarkan - hargaSetelahDiskon;
+
+        //menampilkan uang kembalian 
+        System.out.println("Uang kembalian yang akan diterima: Rp" + kembalian);
+
+    }
+
+
+}
